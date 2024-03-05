@@ -1,12 +1,51 @@
 body {
     font-family: Roboto, 'Open Sans', sans-serif;
     margin: 0;
+    font-size: 18px;
 }
 
 a {
     text-decoration: none;
+    color: #e5e7eb;
+    font-size: 16px;
+
 }
 
+h2 {
+    font-size: 48px;
+    font-weight: extra-bold;
+    color: #f9faf8;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+h5 {
+    font-size: 18px;
+    font-weight: bold;
+    color: #f9faf8;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+button {
+    background-color: #3882f6;
+    color: #f9faf8;
+    border-radius: 8px;
+    border: none;
+    font-family: Roboto, 'Open Sans', sans-serif;
+    font-style: bold;
+    font-weight: bold;
+    padding: 5px;
+    width: 100px;
+    height: 30px;
+}
+
+img { 
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+    
 .header {
     display: flex;
     flex-direction: column;
@@ -20,29 +59,44 @@ a {
 .top {
     display: flex;
     justify-content: space-between;
+    align-items: center;
     margin-bottom: 60px;
+    padding-top: 0px;
+    margin-top: 0px;
 }
 
 ul {
     display: flex;
     list-style: none;
-    gap: 8px;
+    gap: 24px;
 }
 
 .hero-text {
     display: flex;
     align-items: center;
+    gap: 32px;
+    font-size: 14px;
+    color:#e5e7eb;
 }
 
 .rightside {
-    background-color: #e5e7eb;
-    opacity: 50%;
-    width: 400px;
-    height: 180px;
+    background-color: #e5e7eb59;
+    width: 480px;
+    height: 250px;
     align-items: center;
     text-align: center;
     color: white;
     flex-shrink: 0;
+}
+.leftside {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+
+}
+
+.leftside, .rightside {
+    justify-content: center;
 }
 
 
@@ -63,9 +117,12 @@ h3 {
 
 .eikons {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     padding-left: 200px;
     padding-right: 200px;
+    color: #1f2937;
+    font-size: 16px;
+
 }
 
 .descicon {
@@ -73,10 +130,11 @@ h3 {
 }
 
 .squareicon {
+    border-style: solid;
     height: 150px;
     width: 150px;
-    border-width: 2px;
-    border-radius: 10px;
+    border-width: 4px;
+    border-radius: 16px;
     border-color: #3882f6;
 }
 
@@ -90,14 +148,15 @@ h3 {
 blockquote {
     font-size: 36px;
     font-style: italic;
-    font-weight: light;
+    font-weight: 300;
     color: #1f2937;
 }
 
 footer {
     text-align: right;
     font-style: normal;
-    font-weight: normal;
+    font-weight: bold;
+    font-size: 24px;
 }
 
 .cta {
@@ -114,9 +173,27 @@ footer {
     color: #f9faf8;
 }
 
+h4 {
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+button.ctab {
+    border-style: solid;
+    border-width: 2px;
+    border-color: #f9faf8;
+}
+
+p.ctap {
+    margin-bottom: 0;
+    margin-top: 0;
+    font-size: 14px;
+}
+
 .footer {
     text-align: center;
     background-color: #1f2937;
     color: #f9faf8;
     padding: 16px;
+    font-size: 16px;
 }
